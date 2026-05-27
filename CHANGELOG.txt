@@ -1,0 +1,8 @@
+# Changelog
+
+## [1.0.0] - 2026-05-26
+
+### Added
+- CsvFaultInjector.py — fault injection engine (5 fault classes)
+- CsvSanitizer.ps1 — remediation pipeline (5 correction passes)
+- CsvViewer.ps1 — terminal diagnostic viewer
