@@ -9,8 +9,8 @@ A three-stage data quality pipeline that **generates**, **remediates**, and **in
 Real-world CSV data from reporting systems, exports, and third-party sources routinely arrives with schema drift, encoding artifacts, duplicate records, and corrupted values. This pipeline simulates that class of problem at scale and demonstrates systematic remediation in both Python and PowerShell.
 
 ```
- CsvFaultInjector.py   →   CsvSanitizer.ps1   →   CsvViewer.ps1
-      (Generate)                       (Remediate)                    (Inspect)
+ CsvFaultInjector.py        -→     CsvSanitizer.ps1        -→      CsvViewer.ps1
+  (Generate faults)                   (Remediate)              (Inspect files for clean view)
    .\Chaotic Data\                   .\Clean_CSVs\                  .\Clean_CSVs\
 ```
 
